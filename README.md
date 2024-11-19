@@ -6,7 +6,7 @@ ssh-keygen -t ed25519 -C "vikas83pal@gmail.com"
 
 ```
 
-. If ed25519 is not supported, use:
+- If ed25519 is not supported, use:
 ```
 ssh-keygen -t rsa -b 4096 -C "vikas83pal@gmail.com"
 
@@ -23,13 +23,13 @@ Enter file in which to save the key (/Users/you/.ssh/id_ed25519):
 
 # Add the SSH Key to the SSH Agent
 
-. Start the SSH agent:
+- Start the SSH agent:
 ```
 eval "$(ssh-agent -s)"
 
 ```
 
-. Add your private key to the agent:
+- Add your private key to the agent:
 
 ```
 
